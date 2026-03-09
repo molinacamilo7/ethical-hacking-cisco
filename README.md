@@ -33,4 +33,4 @@ En el fondo, la línea que separa a un hacker ético de uno que no lo es no pasa
 
 para resumir planificar bien no es un paso previo a lo importante. Es parte de lo importante. Un alcance claro, los documentos correctos y una actitud profesional son los que hacen que una prueba de penetración tenga valor real para quien la pidió, y que el profesional pueda hacer su trabajo sin arriesgar nada innecesariamente.
 
-en conclusion estos dos capítulos construyen algo que va más allá de lo técnico. Plantean una forma de pensar, de moverse dentro de este campo con criterio y con responsabilidad. Antes de aprender a usar cualquier herramienta, hay que saber quién se es dentro de este trabajo, qué se puede hacer, cómo se hace y con qué valores. Todo lo que viene después en el curso tiene sentido solo si esto quedó claro primero.
+en conclusion estos dos capítulos construyen algo que va más allá de lo técnico. Plantean una forma de pensar, de moverse dentro de este campo con criterio y con responsabilidad. Antes de aprender a usar cualquier herramienta, hay que saber quién se es dentro de este trabajo, qué se puede hacer, cómo se hace y con qué valores.
