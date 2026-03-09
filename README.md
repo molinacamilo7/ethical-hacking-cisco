@@ -1,2 +1,47 @@
-# ethical-hacking-cisco
-Resumen Capítulos 1 y 2 - Curso Ethical Hacking Cisco
+Ethical Hacking – Cisco
+Resumen personal: Capítulos 1 y 2
+
+Capítulo 1: Introducción a la Piratería Ética y las Pruebas de Penetración
+Cuando escuchamos la palabra "hacker" lo primero que viene a la mente suele ser alguien encapuchado frente a una pantalla llena de código verde, haciendo cosas ilegales. Y bueno, ese estereotipo existe por algo, pero está lejos de ser la historia completa. Este capítulo arranca precisamente ahí, desmontando esa imagen y explicando que hay toda una rama del mundo de la seguridad informática dedicada a hacer exactamente lo mismo que un atacante, pero del lado correcto.
+
+Entonces, ¿qué es realmente el hacking ético?
+En pocas palabras, es meterse a un sistema para encontrar sus fallas antes de que alguien con malas intenciones lo haga. La diferencia clave está en el permiso: un hacker ético actúa con autorización, con un objetivo claro y dentro de límites establecidos. Nada de improvisar, nada de actuar por cuenta propia.
+Dentro de este mundo existe una clasificación que se usa mucho para entender las motivaciones de cada quien. Están los de sombrero blanco, que son los que trabajan de forma legal protegiendo sistemas; los de sombrero negro, que actúan sin permiso y generalmente con intenciones dañinas; y los de sombrero gris, que se mueven en un área intermedia — a veces encuentran vulnerabilidades sin que nadie se los haya pedido, pero no siempre con ánimos de hacer daño. Conocer estas diferencias ayuda a entender por qué no todo el que "hackea" es un criminal, y por qué no todo el que dice ser ético realmente lo es.
+
+¿Cómo se hace una prueba de penetración?
+Una prueba de penetración, o pentesting, no es algo que se hace a la ligera. Hay metodologías — formas ordenadas de trabajar que permiten no saltarse ningún paso importante. Algunas de las más conocidas son OWASP, que se enfoca principalmente en aplicaciones web; PTES, que cubre el proceso completo desde el inicio hasta el informe final; y NIST, que tiene un enfoque más amplio hacia cómo las organizaciones gestionan su seguridad.
+Lo interesante es que estas pruebas también varían según cuánta información maneja el evaluador. Si no sabe nada del sistema que va a analizar, se habla de una prueba de caja negra, porque es como entrar a un cuarto oscuro sin saber qué hay adentro. Si tiene acceso total a la información, es caja blanca. Y si solo conoce una parte, es caja gris, que suele parecerse bastante a lo que pasa en situaciones reales.
+
+El laboratorio: el lugar donde se aprende sin romper nada
+Una de las partes más útiles de este capítulo es la que habla de cómo armar un entorno propio para practicar. Y la razón es simple: antes de tocar sistemas reales, hay que equivocarse en un lugar donde eso no tenga consecuencias.
+Para eso se usan herramientas de virtualización como VirtualBox o VMware, que permiten correr sistemas operativos "dentro" del computador sin afectar nada externo. Con eso se puede montar, por ejemplo, Kali Linux — una distribución que viene lista con un montón de herramientas de seguridad — y Metasploitable, que es básicamente una máquina diseñada para tener fallas, perfecta para practicar.
+Tener este espacio no es opcional si se quiere aprender bien. Es como un campo de entrenamiento antes de salir al mundo real.
+
+Lo que quedó de este capítulo
+Más allá de los nombres y las definiciones, lo que realmente deja este primer capítulo es una forma de entender el hacking ético como una disciplina seria, con reglas y con propósito. No es un juego, pero tampoco es algo oscuro o peligroso cuando se hace bien. Es, en el fondo, una forma de cuidar la seguridad de las personas desde adentro.
+
+
+Capítulo 2: Planificación y Alcance de una Prueba de Penetración
+Si el primer capítulo explicaba el qué, este se mete de lleno en el cómo se prepara todo antes de empezar. Y aquí es donde muchos subestiman el proceso, porque planificar no parece tan emocionante como ejecutar un ataque. Pero resulta que sin una buena planificación, todo lo demás puede salir muy mal, incluso si las intenciones son completamente buenas.
+
+Entender el entorno: riesgo, reglas y cumplimiento
+Antes de hacer cualquier cosa, un hacker ético necesita entender en qué contexto está trabajando. Eso implica conocer tres conceptos que van muy de la mano.
+Primero está la gobernanza, que son las políticas internas que una organización tiene para manejar su seguridad — algo así como el reglamento de la casa. Luego viene el riesgo, que es la posibilidad de que algo salga mal, y que se mide pensando en qué tan probable es una amenaza y qué tan grave sería si ocurre. Y por último está el cumplimiento, que tiene que ver con seguir normas externas, ya sean leyes o estándares reconocidos como el ISO 27001 o el PCI-DSS.
+Estos tres elementos no son conceptos aislados — se conectan todo el tiempo, y entenderlos ayuda a saber qué le preocupa realmente al cliente y dónde tiene sentido enfocar el trabajo.
+
+El alcance: la parte que lo cambia todo
+De todo lo que cubre este capítulo, el tema del alcance es probablemente el más importante. El alcance define exactamente qué sistemas se pueden analizar, en qué momentos, con qué herramientas y hasta dónde se puede llegar. Sin eso, una prueba de penetración puede convertirse fácilmente en un problema legal, aunque el pentester haya actuado de buena fe.
+Para evitar malentendidos, existen varios documentos que formalizan el acuerdo entre el profesional y el cliente. Las Reglas de Compromiso establecen qué está permitido y qué no durante la prueba. El acuerdo de confidencialidad protege la información sensible que pueda aparecer en el camino. Y la carta de autorización es el respaldo escrito de que la organización dio su consentimiento para que todo esto ocurra.
+Algo que también se menciona es que el alcance cambia según el entorno. No es lo mismo trabajar sobre servidores físicos que sobre sistemas en la nube o redes industriales. Cada escenario tiene sus propias reglas y sus propios límites, y conocerlos de antemano evita muchos dolores de cabeza.
+
+Actitud y ética: lo que no se aprende con herramientas
+El último apartado toca algo que suele quedar en segundo plano en los cursos técnicos: la forma en que uno se comporta durante y después de una prueba. Ser un buen hacker ético no depende solo de saber usar programas o conocer vulnerabilidades — depende, en gran medida, de cómo se actúa.
+Hay cosas que parecen obvias pero vale la pena decirlas. La información que se encuentra durante una prueba — contraseñas, datos personales, configuraciones internas — no se comparte, no se guarda para uso propio, no se comenta con nadie fuera del proyecto. La confidencialidad no es opcional, es parte del trabajo.
+También está la honestidad a la hora de reportar. Los hallazgos se presentan tal como son, sin inflarlos para parecer más útil ni minimizarlos para no incomodar al cliente. Y si algo sale mal durante la prueba, se comunica de inmediato en lugar de esconderlo.
+En el fondo, la línea que separa a un hacker ético de uno que no lo es no pasa solo por el permiso — pasa por la actitud con la que se enfrenta el trabajo todos los días.
+
+Lo que quedó de este capítulo
+Planificar bien no es un paso previo a lo importante. Es parte de lo importante. Un alcance claro, los documentos correctos y una actitud profesional son los que hacen que una prueba de penetración tenga valor real para quien la pidió, y que el profesional pueda hacer su trabajo sin arriesgar nada innecesariamente.
+
+Para cerrar
+Estos dos capítulos construyen algo que va más allá de lo técnico. Plantean una forma de pensar, de moverse dentro de este campo con criterio y con responsabilidad. Antes de aprender a usar cualquier herramienta, hay que saber quién se es dentro de este trabajo, qué se puede hacer, cómo se hace y con qué valores. Todo lo que viene después en el curso tiene sentido solo si esto quedó claro primero.
