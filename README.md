@@ -110,8 +110,8 @@ Para evitarlo, existen documentos concretos:
   consentimiento.
 
 > El alcance no es el mismo para todos los entornos. No es igual trabajar sobre 
-> servidores físicos que sobre infraestructura en la nube o redes industriales. Cada 
-> escenario tiene sus propias reglas.
+> servidores físicos que sobre infraestructura en la nube.
+> Cada escenario tiene sus propias reglas.
 
 
 ### Actitud y comportamiento: lo que nadie enseña explícitamente
