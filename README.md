@@ -13,9 +13,8 @@ Lo que no se dice tan seguido es que hay profesionales que hacen exactamente lo 
 que un atacante, con la diferencia de que lo hacen con permiso, con un objetivo y 
 dentro de reglas claras. Eso es, en esencia, el hacking ético.
 
----
 
-### ¿Qué es y en qué se diferencia?
+### ¿Qué es?
 
 Un hacker ético entra a un sistema para encontrar sus fallas antes de que alguien con 
 malas intenciones lo haga. Simple. La clave no está solo en las habilidades técnicas, 
@@ -34,9 +33,8 @@ Conocer estas diferencias sirve para algo concreto: entender que hackear no es s
 de delinquir, y que tener buenas intenciones tampoco te hace automáticamente ético si 
 estás operando sin permiso.
 
----
 
-### ¿Cómo se hace una prueba de penetración?
+### Pruebas de penetracion
 
 Una prueba de penetración, o **pentesting**, no es algo que se improvisa. Existen 
 metodologías estructuradas precisamente para no saltarse pasos que después se convierten 
@@ -56,22 +54,18 @@ También varía según cuánta información maneja el evaluador:
 | **Caja blanca** | Acceso total a la información del sistema. |
 | **Caja gris** | Información parcial. La más parecida a escenarios reales. |
 
----
-
-### ¿Por qué armar un entorno propio antes de tocar algo real?
 
 Antes de operar en sistemas reales, hay que poder equivocarse sin consecuencias.
 
-Para eso sirven herramientas como **VirtualBox** o **VMware**, que permiten correr 
+Para eso sirven herramientas como VirtualBox** o VMware, que permiten correr 
 sistemas operativos dentro del propio computador sin afectar nada externo. Con eso 
-se puede instalar **Kali Linux**, que ya viene cargada con herramientas de seguridad, 
+se puede instalar Kali Linux, que ya viene cargada con herramientas de seguridad, 
 junto con máquinas intencionalmente vulnerables diseñadas para practicar ataques de 
 forma controlada.
 
 No es un lujo ni un extra. Si se quiere aprender en serio, este espacio es el punto 
 de partida.
 
----
 
 ## Capítulo 2: Planificación y Alcance
 
@@ -81,7 +75,6 @@ la planificación porque no parece tan interesante como ejecutar un ataque. El p
 es que sin esto bien hecho, todo lo demás puede descarrilarse, incluso con las mejores 
 intenciones.
 
----
 
 ### Contexto antes de acción
 
@@ -97,9 +90,8 @@ entorno, y eso implica tres conceptos que siempre van juntos:
 Estos tres conceptos se mezclan constantemente. Entenderlos permite saber qué le 
 preocupa realmente al cliente y dónde tiene sentido enfocar el trabajo.
 
----
 
-### El alcance: lo más importante y lo más ignorado
+### El alcance:
 
 Definir el alcance es lo que más consecuencias tiene si se hace mal. Establece 
 exactamente qué sistemas se pueden analizar, en qué momentos, con qué herramientas 
@@ -121,7 +113,6 @@ Para evitarlo, existen documentos concretos:
 > servidores físicos que sobre infraestructura en la nube o redes industriales. Cada 
 > escenario tiene sus propias reglas.
 
----
 
 ### Actitud y comportamiento: lo que nadie enseña explícitamente
 
@@ -140,16 +131,15 @@ Algunas cosas que parecen obvias pero vale decir:
 La diferencia entre un hacker ético y uno que no lo es no pasa únicamente por tener 
 un permiso firmado. Pasa por la actitud con la que enfrenta el trabajo cada vez.
 
----
 
 ## Resumen
 
-Estos dos capítulos construyen algo que va más allá de lo técnico. No son solo 
-definiciones o listas de pasos, son una forma de entrar a este campo con criterio.
+Estos dos capítulos hablan algo que va más allá de lo técnico. No son solo 
+definiciones o listas de pasos, es una forma de entrar a este campo con criterio.
 
 Antes de aprender a usar cualquier herramienta, hay que tener claro:
 
-1. **Quién se es** dentro de este trabajo.
-2. **Qué se puede hacer** y qué no.
-3. **Cómo se hace** correctamente.
-4. **Con qué valores** se opera.
+1. Quién se es dentro de este trabajo.
+2. Qué se puede hacer y qué no.
+3. Cómo se hace correctamente.
+4. Con qué valores se opera.
